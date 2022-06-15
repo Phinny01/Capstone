@@ -82,10 +82,9 @@ This application allows to  users to watch different videos posted by other user
    * ...
 
 ## Wireframes
-[Add picture of[Login.pdf](
- your hand sketched wireframes in this section]
-<img src= "[Login.pdf](https://github.com/Phinny01/Capstone/files/8912258/Login.pdf)"
-width=600>
+[Add picture of[Login.pdf](your hand sketched wireframes in this section]
+<img src= "![Login](https://user-images.githubusercontent.com/104809511/173904017-6dbe2dc1-96cd-4c2a-acfb-5fbc5e3f03b6.png)"
+ width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
