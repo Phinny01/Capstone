@@ -19,11 +19,10 @@ This application allows to  users to watch different videos posted by other user
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Social media
-- **Mobile:** 
-- **Story:** 
-- **Market:** 
-- **Habit:**
-- **Scope:**
+- **Mobile:** Users will be able to use it on android devices without restrictions in movement.
+- **Market:** For individuals who want to relax and get entertained or engaged.
+- **Habit:**User will be able to use this app in their leisure for entertainment and relaxation.
+- **Scope:**Users would be able to watch videos based ont their preference and previous videos videos they've watched. 
 
 ## Product Spec
 
@@ -60,9 +59,9 @@ This application allows to  users to watch different videos posted by other user
    * Users must be able to login into their account
    * ...
 * [list second screen here]
-* 
+* Timeline
    * [list associated required story here]
-   * ...
+   * auto-suggest videos based on the videos 
 
 ### 3. Navigation
 
@@ -75,11 +74,15 @@ This application allows to  users to watch different videos posted by other user
 **Flow Navigation** (Screen to Screen)
 
 * [list first screen here]
+* Login Screen
    * [list screen navigation here]
-   * ...
+   * TImeline
 * [list second screen here]
+* TImeline
    * [list screen navigation here]
-   * ...
+   * search
+   * Playlist
+   * categories
 
 ## Wireframes
 [Add picture of[Login.pdf](your hand sketched wireframes in this section]
@@ -94,7 +97,26 @@ This application allows to  users to watch different videos posted by other user
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
+    Property	  Type	  Description
+    objectId	  String	unique id for the user post (default field)
+   ProfileImage	File	  profile image of current user
+    VideoRating	Number	Rating of videos by users
+    
+    objectId	Pointer	pointer to the User
+  RequestsTitle	String	Request's title
+  Seearch	      String	      Search
+CreatedAt	DateTime	Date when the request was created
 ### Networking
-- [Add list of network requests by screen ]
+- [Add list of network requests by screen 
+  Home Timeline
+    Query
+    Suggest vidoes
+    watch videos
+  Search
+    Search
+    
+    Create Parse:
+- 
 - [Create basic snippets for each Parse network request]
+- 
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
