@@ -36,16 +36,17 @@ This application allows to  users to watch different videos posted by other user
 * users must be able to watch videos on the app
 * Users must be able to share videos
 * Users must be able to log out of their account
+* * auto-suggest videos based on the videos 
 * 
 * 
 * ...
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* auto-suggest videos based on the videos 
+* [fill in your optional user stories here]
+
 * suggest videos based on the user’s location
-* users should be able to rate songs
+* users should be able to rate videos
 * allow users to save videos in a playlist
 * allow users to share playlists
 * Handle playlist’s privacy so that everyone or only some people can see the playlist
