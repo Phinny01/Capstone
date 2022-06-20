@@ -7,6 +7,7 @@ Original App Design Project - README Template
 
 
 
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
@@ -36,8 +37,8 @@ This application allows to  users to watch different videos posted by other user
 * users must be able to watch videos on the app
 * Users must be able to share videos
 * Users must be able to log out of their account
-* * auto-suggest videos based on the videos 
-* 
+* auto-suggest videos based on the videos users watch
+* suggest videos based on the user’s location
 * 
 * ...
 
@@ -45,7 +46,7 @@ This application allows to  users to watch different videos posted by other user
 
 * [fill in your optional user stories here]
 
-* suggest videos based on the user’s location
+
 * users should be able to rate videos
 * allow users to save videos in a playlist
 * allow users to share playlists
